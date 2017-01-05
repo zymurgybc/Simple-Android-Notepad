@@ -1,6 +1,7 @@
 Simple Android Notepad
 
-Works with Android 1.6 (API 4)
+While the code should work with older Android, 
+the current config works with Android 6.0 (API 23)
 
 This is a very simple notepad application for Android OS. Project purpose is to present how to use sqlite database in Android environment.
 

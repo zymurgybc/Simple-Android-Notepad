@@ -82,6 +82,8 @@ public class Simple_NotepadActivity extends Activity implements
 
 	}
 
+
+
 	//
 	public void setNotes() {
 		// init the items arrayList
@@ -121,7 +123,6 @@ public class Simple_NotepadActivity extends Activity implements
 		noteList.setAdapter(adapter);
 		// setting listener to the listView
 		noteList.setOnItemClickListener(this);
-
 	}
 
 	// always when we start this activity we want to refresh the list of notes
@@ -187,7 +188,6 @@ public class Simple_NotepadActivity extends Activity implements
 		}
 
 		return false;
-
 	}
 
 	// when user click on note's title we're opening this note in OneNote
